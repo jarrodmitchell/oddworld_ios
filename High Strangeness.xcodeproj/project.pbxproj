@@ -16,6 +16,12 @@
 		11381B462505259000FE5ACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11381B442505259000FE5ACD /* LaunchScreen.storyboard */; };
 		11381B512505259000FE5ACD /* High_StrangenessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11381B502505259000FE5ACD /* High_StrangenessTests.swift */; };
 		11381B5C2505259000FE5ACD /* High_StrangenessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11381B5B2505259000FE5ACD /* High_StrangenessUITests.swift */; };
+		11381B6A2505272700FE5ACD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11381B692505272700FE5ACD /* GoogleService-Info.plist */; };
+		11381B6B2505272700FE5ACD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11381B692505272700FE5ACD /* GoogleService-Info.plist */; };
+		11381B6C2505272700FE5ACD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11381B692505272700FE5ACD /* GoogleService-Info.plist */; };
+		7896CC7F2F57AFD20478B4E5 /* Pods_High_StrangenessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42BE622EDFD75C45519D748 /* Pods_High_StrangenessTests.framework */; };
+		89447686B73C1DB204743C7F /* Pods_High_Strangeness_High_StrangenessUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0F04A1C38C01D875867D55 /* Pods_High_Strangeness_High_StrangenessUITests.framework */; };
+		9AFC0829560FA7796EBB49C6 /* Pods_High_Strangeness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42DFE9E61488E9BFAB70F65 /* Pods_High_Strangeness.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09A0B0B23FD73B6580C07FA6 /* Pods-High Strangeness-High StrangenessUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-High Strangeness-High StrangenessUITests.release.xcconfig"; path = "Target Support Files/Pods-High Strangeness-High StrangenessUITests/Pods-High Strangeness-High StrangenessUITests.release.xcconfig"; sourceTree = "<group>"; };
 		11381B342505258F00FE5ACD /* High Strangeness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "High Strangeness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11381B372505258F00FE5ACD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11381B392505258F00FE5ACD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +58,15 @@
 		11381B572505259000FE5ACD /* High StrangenessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "High StrangenessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11381B5B2505259000FE5ACD /* High_StrangenessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = High_StrangenessUITests.swift; sourceTree = "<group>"; };
 		11381B5D2505259000FE5ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11381B692505272700FE5ACD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1E2C53CDF0FC8CA04A3D9A05 /* Pods-High StrangenessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-High StrangenessTests.release.xcconfig"; path = "Target Support Files/Pods-High StrangenessTests/Pods-High StrangenessTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D0F04A1C38C01D875867D55 /* Pods_High_Strangeness_High_StrangenessUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_High_Strangeness_High_StrangenessUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CB69F57F5BE071135E9E28 /* Pods-High Strangeness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-High Strangeness.release.xcconfig"; path = "Target Support Files/Pods-High Strangeness/Pods-High Strangeness.release.xcconfig"; sourceTree = "<group>"; };
+		77D06459D166BA04208294FE /* Pods-High Strangeness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-High Strangeness.debug.xcconfig"; path = "Target Support Files/Pods-High Strangeness/Pods-High Strangeness.debug.xcconfig"; sourceTree = "<group>"; };
+		B09AB1630DBF01FB35F31804 /* Pods-High StrangenessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-High StrangenessTests.debug.xcconfig"; path = "Target Support Files/Pods-High StrangenessTests/Pods-High StrangenessTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C42DFE9E61488E9BFAB70F65 /* Pods_High_Strangeness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_High_Strangeness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC967C18BF6B9EA37F56727C /* Pods-High Strangeness-High StrangenessUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-High Strangeness-High StrangenessUITests.debug.xcconfig"; path = "Target Support Files/Pods-High Strangeness-High StrangenessUITests/Pods-High Strangeness-High StrangenessUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F42BE622EDFD75C45519D748 /* Pods_High_StrangenessTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_High_StrangenessTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AFC0829560FA7796EBB49C6 /* Pods_High_Strangeness.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7896CC7F2F57AFD20478B4E5 /* Pods_High_StrangenessTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89447686B73C1DB204743C7F /* Pods_High_Strangeness_High_StrangenessUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +104,8 @@
 				11381B4F2505259000FE5ACD /* High StrangenessTests */,
 				11381B5A2505259000FE5ACD /* High StrangenessUITests */,
 				11381B352505258F00FE5ACD /* Products */,
+				F50D062661C10E949F635CC5 /* Pods */,
+				195DB58AFD30EFF4D3591ABC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +130,7 @@
 				11381B422505259000FE5ACD /* Assets.xcassets */,
 				11381B442505259000FE5ACD /* LaunchScreen.storyboard */,
 				11381B472505259000FE5ACD /* Info.plist */,
+				11381B692505272700FE5ACD /* GoogleService-Info.plist */,
 			);
 			path = "High Strangeness";
 			sourceTree = "<group>";
@@ -131,6 +153,30 @@
 			path = "High StrangenessUITests";
 			sourceTree = "<group>";
 		};
+		195DB58AFD30EFF4D3591ABC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C42DFE9E61488E9BFAB70F65 /* Pods_High_Strangeness.framework */,
+				2D0F04A1C38C01D875867D55 /* Pods_High_Strangeness_High_StrangenessUITests.framework */,
+				F42BE622EDFD75C45519D748 /* Pods_High_StrangenessTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F50D062661C10E949F635CC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77D06459D166BA04208294FE /* Pods-High Strangeness.debug.xcconfig */,
+				66CB69F57F5BE071135E9E28 /* Pods-High Strangeness.release.xcconfig */,
+				DC967C18BF6B9EA37F56727C /* Pods-High Strangeness-High StrangenessUITests.debug.xcconfig */,
+				09A0B0B23FD73B6580C07FA6 /* Pods-High Strangeness-High StrangenessUITests.release.xcconfig */,
+				B09AB1630DBF01FB35F31804 /* Pods-High StrangenessTests.debug.xcconfig */,
+				1E2C53CDF0FC8CA04A3D9A05 /* Pods-High StrangenessTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11381B602505259000FE5ACD /* Build configuration list for PBXNativeTarget "High Strangeness" */;
 			buildPhases = (
+				9DE810296D7164E55297D2C0 /* [CP] Check Pods Manifest.lock */,
 				11381B302505258F00FE5ACD /* Sources */,
 				11381B312505258F00FE5ACD /* Frameworks */,
 				11381B322505258F00FE5ACD /* Resources */,
+				AC9B6698B6FDC55D049933EE /* [CP] Embed Pods Frameworks */,
+				3313946BA0910D4E97E01673 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11381B632505259000FE5ACD /* Build configuration list for PBXNativeTarget "High StrangenessTests" */;
 			buildPhases = (
+				E8E9E43353D8AFB45116FA45 /* [CP] Check Pods Manifest.lock */,
 				11381B482505259000FE5ACD /* Sources */,
 				11381B492505259000FE5ACD /* Frameworks */,
 				11381B4A2505259000FE5ACD /* Resources */,
@@ -173,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11381B662505259000FE5ACD /* Build configuration list for PBXNativeTarget "High StrangenessUITests" */;
 			buildPhases = (
+				55AF9CC99FDB295B6E1BF22A /* [CP] Check Pods Manifest.lock */,
 				11381B532505259000FE5ACD /* Sources */,
 				11381B542505259000FE5ACD /* Frameworks */,
 				11381B552505259000FE5ACD /* Resources */,
+				4E6E498BE4C8214B62DE3BC4 /* [CP] Embed Pods Frameworks */,
+				34F6CB88C337DBDAF0FFBA68 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11381B462505259000FE5ACD /* LaunchScreen.storyboard in Resources */,
+				11381B6A2505272700FE5ACD /* GoogleService-Info.plist in Resources */,
 				11381B432505259000FE5ACD /* Assets.xcassets in Resources */,
 				11381B412505258F00FE5ACD /* Main.storyboard in Resources */,
 			);
@@ -245,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11381B6B2505272700FE5ACD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,10 +307,148 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11381B6C2505272700FE5ACD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3313946BA0910D4E97E01673 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-High Strangeness/Pods-High Strangeness-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-High Strangeness/Pods-High Strangeness-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-High Strangeness/Pods-High Strangeness-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34F6CB88C337DBDAF0FFBA68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-High Strangeness-High StrangenessUITests/Pods-High Strangeness-High StrangenessUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-High Strangeness-High StrangenessUITests/Pods-High Strangeness-High StrangenessUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-High Strangeness-High StrangenessUITests/Pods-High Strangeness-High StrangenessUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E6E498BE4C8214B62DE3BC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-High Strangeness-High StrangenessUITests/Pods-High Strangeness-High StrangenessUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-High Strangeness-High StrangenessUITests/Pods-High Strangeness-High StrangenessUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-High Strangeness-High StrangenessUITests/Pods-High Strangeness-High StrangenessUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55AF9CC99FDB295B6E1BF22A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-High Strangeness-High StrangenessUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE810296D7164E55297D2C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-High Strangeness-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC9B6698B6FDC55D049933EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-High Strangeness/Pods-High Strangeness-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-High Strangeness/Pods-High Strangeness-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-High Strangeness/Pods-High Strangeness-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8E9E43353D8AFB45116FA45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-High StrangenessTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		11381B302505258F00FE5ACD /* Sources */ = {
@@ -436,6 +629,7 @@
 		};
 		11381B612505259000FE5ACD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D06459D166BA04208294FE /* Pods-High Strangeness.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +648,7 @@
 		};
 		11381B622505259000FE5ACD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66CB69F57F5BE071135E9E28 /* Pods-High Strangeness.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +667,7 @@
 		};
 		11381B642505259000FE5ACD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B09AB1630DBF01FB35F31804 /* Pods-High StrangenessTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +690,7 @@
 		};
 		11381B652505259000FE5ACD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2C53CDF0FC8CA04A3D9A05 /* Pods-High StrangenessTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +713,7 @@
 		};
 		11381B672505259000FE5ACD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC967C18BF6B9EA37F56727C /* Pods-High Strangeness-High StrangenessUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +734,7 @@
 		};
 		11381B682505259000FE5ACD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09A0B0B23FD73B6580C07FA6 /* Pods-High Strangeness-High StrangenessUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

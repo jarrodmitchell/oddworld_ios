@@ -1,0 +1,6 @@
+framework module Pods_High_StrangenessTests {
+  umbrella header "Pods-High StrangenessTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

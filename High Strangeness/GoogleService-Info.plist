@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>599882600949-sgoummiev5b15gldu8v4bf79pt0kj34v.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.599882600949-sgoummiev5b15gldu8v4bf79pt0kj34v</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>599882600949-8va3hsde9nv049f3rhm91bradtk5feu3.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCOsUnIAtIEoHYOrRDxS4HLQ_IM_46xnk8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>599882600949</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>penguindrummer.High-Strangeness</string>
+	<key>PROJECT_ID</key>
+	<string>highstrangeness333</string>
+	<key>STORAGE_BUCKET</key>
+	<string>highstrangeness333.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:599882600949:ios:70dfdedb3b1f52483610bc</string>
+	<key>DATABASE_URL</key>
+	<string>https://highstrangeness333.firebaseio.com</string>
+</dict>
+</plist>
