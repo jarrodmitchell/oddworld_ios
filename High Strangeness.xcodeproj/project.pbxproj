@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,12 @@
 		11381B6A2505272700FE5ACD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11381B692505272700FE5ACD /* GoogleService-Info.plist */; };
 		11381B6B2505272700FE5ACD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11381B692505272700FE5ACD /* GoogleService-Info.plist */; };
 		11381B6C2505272700FE5ACD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11381B692505272700FE5ACD /* GoogleService-Info.plist */; };
+		11381B6E25052B9700FE5ACD /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11381B6D25052B9700FE5ACD /* LogInViewController.swift */; };
+		11381B7025052BA300FE5ACD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11381B6F25052BA300FE5ACD /* SignUpViewController.swift */; };
+		11381B7225052BBA00FE5ACD /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11381B7125052BBA00FE5ACD /* ResetPasswordViewController.swift */; };
+		11381B762505392500FE5ACD /* FormValidationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11381B752505392500FE5ACD /* FormValidationUtility.swift */; };
+		11381B7A25063CE900FE5ACD /* AddProfilePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11381B7925063CE900FE5ACD /* AddProfilePictureViewController.swift */; };
+		11381B7C2506813800FE5ACD /* ImageUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11381B7B2506813800FE5ACD /* ImageUtility.swift */; };
 		7896CC7F2F57AFD20478B4E5 /* Pods_High_StrangenessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42BE622EDFD75C45519D748 /* Pods_High_StrangenessTests.framework */; };
 		89447686B73C1DB204743C7F /* Pods_High_Strangeness_High_StrangenessUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0F04A1C38C01D875867D55 /* Pods_High_Strangeness_High_StrangenessUITests.framework */; };
 		9AFC0829560FA7796EBB49C6 /* Pods_High_Strangeness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42DFE9E61488E9BFAB70F65 /* Pods_High_Strangeness.framework */; };
@@ -59,6 +65,12 @@
 		11381B5B2505259000FE5ACD /* High_StrangenessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = High_StrangenessUITests.swift; sourceTree = "<group>"; };
 		11381B5D2505259000FE5ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11381B692505272700FE5ACD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		11381B6D25052B9700FE5ACD /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		11381B6F25052BA300FE5ACD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		11381B7125052BBA00FE5ACD /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		11381B752505392500FE5ACD /* FormValidationUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidationUtility.swift; sourceTree = "<group>"; };
+		11381B7925063CE900FE5ACD /* AddProfilePictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProfilePictureViewController.swift; sourceTree = "<group>"; };
+		11381B7B2506813800FE5ACD /* ImageUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtility.swift; sourceTree = "<group>"; };
 		1E2C53CDF0FC8CA04A3D9A05 /* Pods-High StrangenessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-High StrangenessTests.release.xcconfig"; path = "Target Support Files/Pods-High StrangenessTests/Pods-High StrangenessTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D0F04A1C38C01D875867D55 /* Pods_High_Strangeness_High_StrangenessUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_High_Strangeness_High_StrangenessUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CB69F57F5BE071135E9E28 /* Pods-High Strangeness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-High Strangeness.release.xcconfig"; path = "Target Support Files/Pods-High Strangeness/Pods-High Strangeness.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +134,8 @@
 		11381B362505258F00FE5ACD /* High Strangeness */ = {
 			isa = PBXGroup;
 			children = (
+				11381B74250538EA00FE5ACD /* utilities */,
+				11381B73250538BA00FE5ACD /* user_auth */,
 				11381B372505258F00FE5ACD /* AppDelegate.swift */,
 				11381B392505258F00FE5ACD /* SceneDelegate.swift */,
 				11381B3B2505258F00FE5ACD /* FirstViewController.swift */,
@@ -153,6 +167,26 @@
 			path = "High StrangenessUITests";
 			sourceTree = "<group>";
 		};
+		11381B73250538BA00FE5ACD /* user_auth */ = {
+			isa = PBXGroup;
+			children = (
+				11381B6D25052B9700FE5ACD /* LogInViewController.swift */,
+				11381B6F25052BA300FE5ACD /* SignUpViewController.swift */,
+				11381B7125052BBA00FE5ACD /* ResetPasswordViewController.swift */,
+				11381B7925063CE900FE5ACD /* AddProfilePictureViewController.swift */,
+			);
+			path = user_auth;
+			sourceTree = "<group>";
+		};
+		11381B74250538EA00FE5ACD /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				11381B752505392500FE5ACD /* FormValidationUtility.swift */,
+				11381B7B2506813800FE5ACD /* ImageUtility.swift */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
 		195DB58AFD30EFF4D3591ABC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,7 +207,6 @@
 				B09AB1630DBF01FB35F31804 /* Pods-High StrangenessTests.debug.xcconfig */,
 				1E2C53CDF0FC8CA04A3D9A05 /* Pods-High StrangenessTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -455,10 +488,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11381B7025052BA300FE5ACD /* SignUpViewController.swift in Sources */,
+				11381B762505392500FE5ACD /* FormValidationUtility.swift in Sources */,
 				11381B3E2505258F00FE5ACD /* SecondViewController.swift in Sources */,
 				11381B3C2505258F00FE5ACD /* FirstViewController.swift in Sources */,
 				11381B382505258F00FE5ACD /* AppDelegate.swift in Sources */,
+				11381B7A25063CE900FE5ACD /* AddProfilePictureViewController.swift in Sources */,
+				11381B6E25052B9700FE5ACD /* LogInViewController.swift in Sources */,
 				11381B3A2505258F00FE5ACD /* SceneDelegate.swift in Sources */,
+				11381B7C2506813800FE5ACD /* ImageUtility.swift in Sources */,
+				11381B7225052BBA00FE5ACD /* ResetPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
