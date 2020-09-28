@@ -55,9 +55,7 @@ class SignUpViewController: UIViewController {
                         ]) { err in
                             if let error = error {
                                 print("Error adding username: \(error.localizedDescription)")
-                                self!.goToAddProfilePictureScreen()
                             }else{
-
                                 print("Username added successfully")
                                 self!.checkForCurrentUser()
                             }

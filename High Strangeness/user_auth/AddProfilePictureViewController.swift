@@ -87,6 +87,10 @@ class AddProfilePictureViewController: UIViewController, UIImagePickerController
         }
     }
     
+    @IBAction func unwind(segue: UIStoryboardSegue)  {
+        
+    }
+    
     
     /*
      // MARK: - Navigation

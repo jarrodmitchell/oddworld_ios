@@ -11,10 +11,16 @@ import FirebaseAuth
 import FirebaseFirestore
 import FirebaseStorage
 
+protocol LoggedOut {
+    func goToLogInScreen()
+}
+
 class AccountViewController: UIViewController {
     @IBOutlet weak var labelUsername: UILabel!
     @IBOutlet weak var labelEmail: UILabel!
     @IBOutlet weak var imageViewProfilePic: UIImageView!
+    
+    var loggedOutListener:LoggedOut!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -66,13 +72,12 @@ class AccountViewController: UIViewController {
     }
     
     @IBAction func logOutButtonTapped(_ sender: Any) {
-//        do {
-//            try Auth.auth().signOut()
-//        } catch  {
-//            print("error signing  out")
-//        }
-        
-        print("log out")
+        do {
+            try Auth.auth().signOut()
+            self.loggedOutListener.goToLogInScreen()
+        } catch  {
+            print("error signing  out")
+        }
     }
     
 

@@ -65,6 +65,7 @@ class LogInViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        self.isModalInPresentation = true
         checkForCurrentUser()
         textFieldEmail.addTarget(self, action: #selector(textFieldTextChanged(_:)), for: .editingChanged)
         textFieldPassword.addTarget(self, action: #selector(textFieldTextChanged(_:)), for: .editingChanged)
@@ -112,9 +113,7 @@ class LogInViewController: UIViewController {
     }
     
     func goToMainScreen() {
-        DispatchQueue.main.async {
-            self.performSegue(withIdentifier: "logInToMain", sender: self)
-        }
+        dismiss(animated: true, completion: nil)
     }
     
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
