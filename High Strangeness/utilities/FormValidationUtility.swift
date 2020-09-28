@@ -11,61 +11,83 @@ import UIKit
 
 public class FormValidationUtility {
     
-    public static func validateEmail(email: String, labelErrorMessage: UILabel) -> Bool {
+    public static func validateEmail(email: String, labelErrorMessage: UILabel?) -> Bool {
         let trimmedEmail = email.trimmingCharacters(in: .whitespaces).lowercased()
         let emailFormat = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
         let emailPredicate = NSPredicate(format:"SELF MATCHES %@", emailFormat)
         
         if trimmedEmail.isEmpty {
-            labelErrorMessage.text = "Email cannot be empty"
+            if labelErrorMessage != nil {
+                labelErrorMessage!.text = "Email cannot be empty"
+            }
             return false;
         }else if !emailPredicate.evaluate(with: trimmedEmail) {
-            labelErrorMessage.text = "Invalid Email"
+            if labelErrorMessage != nil {
+                labelErrorMessage!.text = "Invalid Email"
+            }
             return false;
         }else{
-            labelErrorMessage.text = ""
+            if labelErrorMessage != nil {
+                labelErrorMessage!.text = ""
+            }
         }
         return true;
     }
     
-    public static func validatePassword(password: String, labelErrorMessage: UILabel) -> Bool {
+    public static func validatePassword(password: String, labelErrorMessage: UILabel?) -> Bool {
         let trimmedPassword = password.trimmingCharacters(in: .whitespaces);
         
         if trimmedPassword.isEmpty {
-            labelErrorMessage.text = "Password cannot be empty"
+            if labelErrorMessage != nil {
+                labelErrorMessage!.text = "Password cannot be empty"
+            }
             return false;
         }else{
-            labelErrorMessage.text = ""
+            if labelErrorMessage != nil {
+                labelErrorMessage!.text = ""
+            }
         }
         return true;
     }
     
-    public static func validatePasswordCreation(password: String, labelErrorMessage: UILabel) -> Bool {
+    public static func validatePasswordCreation(password: String, labelErrorMessage: UILabel?) -> Bool {
         let trimmedPassword = password.trimmingCharacters(in: .whitespaces);
         
         if trimmedPassword.isEmpty {
-            labelErrorMessage.text = "Password cannot be empty"
+            if labelErrorMessage != nil {
+                labelErrorMessage!.text = "Password cannot be empty"
+            }
             return false;
         }else if trimmedPassword.count < 6 {
-            labelErrorMessage.text = "Password must contain at least 6 characters"
+            if labelErrorMessage != nil {
+                labelErrorMessage!.text = "Password must contain at least 6 characters"
+            }
             return false;
         }else{
-            labelErrorMessage.text = ""
+            if labelErrorMessage != nil {
+                labelErrorMessage!.text = ""
+            }
         }
         return true;
     }
     
-    public static func validateUsername(username: String, labelErrorMessage: UILabel) -> Bool {
+    public static func validateUsername(username: String, labelErrorMessage: UILabel?) -> Bool {
         let trimmedUsername = username.trimmingCharacters(in: .whitespaces);
         
         if trimmedUsername.isEmpty {
-            labelErrorMessage.text = "Username cannot be empty"
+            if labelErrorMessage != nil {
+                labelErrorMessage!.text = "Username cannot be empty"
+            }
             return false;
         }else if trimmedUsername.count > 16 {
-            labelErrorMessage.text = "Username cannot exceed 15 characters"
+            if labelErrorMessage != nil {
+                labelErrorMessage!.text = "Username cannot exceed 15 characters"
+            }
             return false;
         }else{
-            labelErrorMessage.text = ""
+            if labelErrorMessage  != nil {
+                labelErrorMessage!.text = ""
+            }
         }
         return true;
     }

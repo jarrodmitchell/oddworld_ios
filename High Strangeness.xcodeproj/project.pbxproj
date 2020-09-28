@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1107804125220FFA0054DE65 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107804025220FFA0054DE65 /* AccountViewController.swift */; };
+		11078043252215110054DE65 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11078042252215100054DE65 /* EditProfileViewController.swift */; };
 		11381B382505258F00FE5ACD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11381B372505258F00FE5ACD /* AppDelegate.swift */; };
 		11381B3A2505258F00FE5ACD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11381B392505258F00FE5ACD /* SceneDelegate.swift */; };
-		11381B3C2505258F00FE5ACD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11381B3B2505258F00FE5ACD /* FirstViewController.swift */; };
-		11381B3E2505258F00FE5ACD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11381B3D2505258F00FE5ACD /* SecondViewController.swift */; };
+		11381B3C2505258F00FE5ACD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11381B3B2505258F00FE5ACD /* MapViewController.swift */; };
+		11381B3E2505258F00FE5ACD /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11381B3D2505258F00FE5ACD /* ListViewController.swift */; };
 		11381B412505258F00FE5ACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11381B3F2505258F00FE5ACD /* Main.storyboard */; };
 		11381B432505259000FE5ACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11381B422505259000FE5ACD /* Assets.xcassets */; };
 		11381B462505259000FE5ACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11381B442505259000FE5ACD /* LaunchScreen.storyboard */; };
@@ -24,7 +26,6 @@
 		11381B7225052BBA00FE5ACD /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11381B7125052BBA00FE5ACD /* ResetPasswordViewController.swift */; };
 		11381B762505392500FE5ACD /* FormValidationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11381B752505392500FE5ACD /* FormValidationUtility.swift */; };
 		11381B7A25063CE900FE5ACD /* AddProfilePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11381B7925063CE900FE5ACD /* AddProfilePictureViewController.swift */; };
-		11381B7C2506813800FE5ACD /* ImageUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11381B7B2506813800FE5ACD /* ImageUtility.swift */; };
 		7896CC7F2F57AFD20478B4E5 /* Pods_High_StrangenessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42BE622EDFD75C45519D748 /* Pods_High_StrangenessTests.framework */; };
 		89447686B73C1DB204743C7F /* Pods_High_Strangeness_High_StrangenessUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0F04A1C38C01D875867D55 /* Pods_High_Strangeness_High_StrangenessUITests.framework */; };
 		9AFC0829560FA7796EBB49C6 /* Pods_High_Strangeness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42DFE9E61488E9BFAB70F65 /* Pods_High_Strangeness.framework */; };
@@ -49,11 +50,13 @@
 
 /* Begin PBXFileReference section */
 		09A0B0B23FD73B6580C07FA6 /* Pods-High Strangeness-High StrangenessUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-High Strangeness-High StrangenessUITests.release.xcconfig"; path = "Target Support Files/Pods-High Strangeness-High StrangenessUITests/Pods-High Strangeness-High StrangenessUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1107804025220FFA0054DE65 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		11078042252215100054DE65 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		11381B342505258F00FE5ACD /* High Strangeness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "High Strangeness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11381B372505258F00FE5ACD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11381B392505258F00FE5ACD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11381B3B2505258F00FE5ACD /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		11381B3D2505258F00FE5ACD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		11381B3B2505258F00FE5ACD /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		11381B3D2505258F00FE5ACD /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		11381B402505258F00FE5ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11381B422505259000FE5ACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11381B452505259000FE5ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -70,7 +73,6 @@
 		11381B7125052BBA00FE5ACD /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		11381B752505392500FE5ACD /* FormValidationUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidationUtility.swift; sourceTree = "<group>"; };
 		11381B7925063CE900FE5ACD /* AddProfilePictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProfilePictureViewController.swift; sourceTree = "<group>"; };
-		11381B7B2506813800FE5ACD /* ImageUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtility.swift; sourceTree = "<group>"; };
 		1E2C53CDF0FC8CA04A3D9A05 /* Pods-High StrangenessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-High StrangenessTests.release.xcconfig"; path = "Target Support Files/Pods-High StrangenessTests/Pods-High StrangenessTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D0F04A1C38C01D875867D55 /* Pods_High_Strangeness_High_StrangenessUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_High_Strangeness_High_StrangenessUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CB69F57F5BE071135E9E28 /* Pods-High Strangeness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-High Strangeness.release.xcconfig"; path = "Target Support Files/Pods-High Strangeness/Pods-High Strangeness.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,13 +140,15 @@
 				11381B73250538BA00FE5ACD /* user_auth */,
 				11381B372505258F00FE5ACD /* AppDelegate.swift */,
 				11381B392505258F00FE5ACD /* SceneDelegate.swift */,
-				11381B3B2505258F00FE5ACD /* FirstViewController.swift */,
-				11381B3D2505258F00FE5ACD /* SecondViewController.swift */,
+				11381B3B2505258F00FE5ACD /* MapViewController.swift */,
+				11381B3D2505258F00FE5ACD /* ListViewController.swift */,
 				11381B3F2505258F00FE5ACD /* Main.storyboard */,
+				11078042252215100054DE65 /* EditProfileViewController.swift */,
 				11381B422505259000FE5ACD /* Assets.xcassets */,
 				11381B442505259000FE5ACD /* LaunchScreen.storyboard */,
 				11381B472505259000FE5ACD /* Info.plist */,
 				11381B692505272700FE5ACD /* GoogleService-Info.plist */,
+				1107804025220FFA0054DE65 /* AccountViewController.swift */,
 			);
 			path = "High Strangeness";
 			sourceTree = "<group>";
@@ -182,7 +186,6 @@
 			isa = PBXGroup;
 			children = (
 				11381B752505392500FE5ACD /* FormValidationUtility.swift */,
-				11381B7B2506813800FE5ACD /* ImageUtility.swift */,
 			);
 			path = utilities;
 			sourceTree = "<group>";
@@ -488,15 +491,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11078043252215110054DE65 /* EditProfileViewController.swift in Sources */,
 				11381B7025052BA300FE5ACD /* SignUpViewController.swift in Sources */,
 				11381B762505392500FE5ACD /* FormValidationUtility.swift in Sources */,
-				11381B3E2505258F00FE5ACD /* SecondViewController.swift in Sources */,
-				11381B3C2505258F00FE5ACD /* FirstViewController.swift in Sources */,
+				11381B3E2505258F00FE5ACD /* ListViewController.swift in Sources */,
+				11381B3C2505258F00FE5ACD /* MapViewController.swift in Sources */,
 				11381B382505258F00FE5ACD /* AppDelegate.swift in Sources */,
 				11381B7A25063CE900FE5ACD /* AddProfilePictureViewController.swift in Sources */,
+				1107804125220FFA0054DE65 /* AccountViewController.swift in Sources */,
 				11381B6E25052B9700FE5ACD /* LogInViewController.swift in Sources */,
 				11381B3A2505258F00FE5ACD /* SceneDelegate.swift in Sources */,
-				11381B7C2506813800FE5ACD /* ImageUtility.swift in Sources */,
 				11381B7225052BBA00FE5ACD /* ResetPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

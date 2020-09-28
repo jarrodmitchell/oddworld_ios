@@ -20,6 +20,14 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>This app wants to use your photos and videos to add to posts</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app wants to use the camera to take pictures to add to posts</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>By accessing your location the app can simplify selecting locations on the map</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string> This app wants to use your audios to add to posts</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -70,9 +78,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSCameraUsageDescription</key>
-	<string>This app wants to use the camera to take pictures to add to posts</string>
-	<key>NSAppleMusicUsageDescription</key>
-	<string>This app wants to use your photos, audios, and videos to add to posts</string>
 </dict>
 </plist>

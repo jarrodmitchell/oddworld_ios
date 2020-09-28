@@ -8,8 +8,10 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
-
+class ListViewController: UIViewController {
+    @IBOutlet weak var tableViewPosts: UITableView!
+    @IBOutlet weak var buttonAccount: UIBarButtonItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

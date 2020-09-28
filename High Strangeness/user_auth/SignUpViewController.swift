@@ -45,8 +45,6 @@ class SignUpViewController: UIViewController {
                             print(error.code)
                         }
                     } else {
-    //                    let userInfo = Auth.auth().currentUser
-    //                    let email = userInfo?.email
                         print("User signed up successfully")
                         
                         let db = Firestore.firestore()
